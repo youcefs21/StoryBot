@@ -1,0 +1,42 @@
+{
+
+"A0":{
+    "cid" : 0,
+    "text" : "This|| is a demo|| of an input prompt||.||\n\nPlease enter a name",
+    "interaction" : {"type":"prompt", "variable":"|name|", "pointer":"A1"}
+},
+"A1":{
+    "cid" : 0,
+    "text" : "This|| is a demo|| of a message with|| no interaction||.||.",
+    "interaction" : {"type":"next", "pointer":"A2"}
+},
+"A2":{
+    "cid" : 1,
+    "text" : "hm||mm,||\n This is an example of a choice",
+    "interaction" : {
+        "type":"choice",
+        "labels":["the bakery", "the Café"],
+        "pointer":["B1","C1"]
+    }
+},
+"B1":{
+    "selected": "you chose to go to the bakery!",
+    "cid" : 0,
+    "text": "|name| went to || the local bakery||.",
+    "interaction" : {"type":"next", "pointer":"B4"}
+},
+"B2":{
+    "cid" : 2,
+    "text": "is there something|| I can help you|| with||?",
+    "interaction" : {"type":"end"}
+},
+
+
+"C1":{
+    "selected": "you chose to go to the Café!",
+    "cid" : 0,
+    "text": "cool isn't it?",
+    "interaction" : {"type":"end"}
+}
+
+}

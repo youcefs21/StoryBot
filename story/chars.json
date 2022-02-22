@@ -1,0 +1,18 @@
+{
+"0":{
+    "name":"Narrator",
+    "color":"0x00003d",
+    "pic":"https://cdn.discordapp.com/attachments/841375258258702378/910383869432324146/unknown.png"
+},
+"1":{
+    "name":"|name|",
+    "color":"0xeb34ba",
+    "pic":"https://www.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png"
+},
+"2":{
+    "name":"Baker",
+    "color":"0xeec07b",
+    "pic":"https://cdn.discordapp.com/attachments/904807840236060735/910600052945326180/iu.png"
+}
+
+}
