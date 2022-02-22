@@ -23,7 +23,7 @@
     "selected": "you chose to go to the bakery!",
     "cid" : 0,
     "text": "|name| went to || the local bakery||.",
-    "interaction" : {"type":"next", "pointer":"B4"}
+    "interaction" : {"type":"next", "pointer":"B2"}
 },
 "B2":{
     "cid" : 2,
